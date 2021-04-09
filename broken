@@ -10,7 +10,7 @@
         ORG     0FFE8h                  ; vector for TIMER_A0
         DC16    MainLoop                ; set vector for 'MainLoop' routine
         
-        //ORG     0FFDAh                  ; vector for PORT1
+        ORG     0FFDAh                  ; vector for PORT1
         //DC16    PORT1_ISR               ; set vector for 'PORT1_ISR' routine
         
         ORG     0FFFEh                  ; vector for RESET
